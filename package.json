@@ -1,0 +1,32 @@
+{
+  "name": "phaser-plugin-follow",
+  "version": "0.1.0",
+  "description": "Let objects follow other objects",
+  "main": "dist/FollowPlugin.js",
+  "scripts": {
+    "build": "npx babel src/main.es6 -o dist/FollowPlugin.js",
+    "start": "npx babel src/main.es6 --watch -o dist/FollowPlugin.js",
+    "test": "eslint src/main.es6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samme/phaser-plugin-follow.git"
+  },
+  "keywords": [
+    "phaser-plugin",
+    "phaser3-plugin"
+  ],
+  "author": "samme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samme/phaser-plugin-follow/issues"
+  },
+  "homepage": "https://github.com/samme/phaser-plugin-follow#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "phaser": "^3.9.0"
+  }
+}
