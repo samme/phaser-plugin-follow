@@ -12,17 +12,17 @@ new Phaser.Game({
 In a scene:
 
 ```javascript
-this.follow.add(obj1, {
-  target: obj2, // Required.
+this.follow.add(follower, {
+  target: target, // Required.
   offsetX: 0,
   offsetY: 0,
   rotate: false,
   rotateOffset: false
 });
 
-this.follow.pause(obj1);
+this.follow.pause(follower);
 
-this.follow.resume(obj1);
+this.follow.resume(follower);
 
-this.follow.remove(obj1);
+this.follow.remove(follower);
 ```
