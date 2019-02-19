@@ -1,6 +1,6 @@
 {
   "name": "phaser-plugin-follow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Let objects follow other objects",
   "main": "dist/FollowPlugin.js",
   "scripts": {
