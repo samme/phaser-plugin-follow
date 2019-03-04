@@ -4,10 +4,12 @@ Phaser 3 Follow Plugin
 ```javascript
 new Phaser.Game({
   plugins: {
-    scene: [{ key: 'FollowPlugin', plugin: Phaser.Plugins.FollowPlugin, mapping: 'follow' }]
+    scene: [{ key: 'FollowPlugin', plugin: PhaserFollowPlugin, mapping: 'follow' }]
   }
 });
 ```
+
+If you're using ES6 modules, you can use the plugin's default export in place of `PhaserFollowPlugin`.
 
 In a scene:
 
