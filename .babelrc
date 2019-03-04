@@ -6,5 +6,6 @@
       }
     }]
   ],
+  "moduleId": "phaser-plugin-follow",
   "presets": ["env"]
 }
