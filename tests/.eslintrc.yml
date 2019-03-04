@@ -2,6 +2,8 @@ extends: '../../.eslintrc.yml'
 env:
   browser: true
   es6: false
+globals:
+  PhaserFollowPlugin: false
 rules:
   no-console:
     - warn
