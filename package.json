@@ -2,11 +2,11 @@
   "name": "phaser-plugin-follow",
   "version": "1.0.1",
   "description": "Let objects follow other objects",
-  "main": "dist/FollowPlugin.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "npx babel src/main.es6 -o dist/FollowPlugin.js",
-    "start": "npx babel src/main.es6 --watch -o dist/FollowPlugin.js",
-    "test": "eslint src/main.es6"
+    "build": "npx babel src/index.js -o dist/PhaserFollowPlugin.js",
+    "start": "npx babel src/index.js --watch -o dist/PhaserFollowPlugin.js",
+    "test": "eslint src/index.js"
   },
   "repository": {
     "type": "git",
