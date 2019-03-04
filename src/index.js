@@ -81,4 +81,6 @@ export default class FollowPlugin extends Phaser.Plugins.ScenePlugin {
 
 }
 
-Phaser.Plugins.FollowPlugin = FollowPlugin;
+if (typeof window !== 'undefined') {
+  window.PhaserFollowPlugin = FollowPlugin;
+}

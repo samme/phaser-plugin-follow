@@ -1,6 +1,6 @@
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
-    define(['exports', 'phaser'], factory);
+    define('phaser-plugin-follow', ['exports', 'phaser'], factory);
   } else if (typeof exports !== "undefined") {
     factory(exports, require('phaser'));
   } else {
@@ -8,7 +8,7 @@
       exports: {}
     };
     factory(mod.exports, global.Phaser);
-    global.main = mod.exports;
+    global.phaserPluginFollow = mod.exports;
   }
 })(this, function (exports, _phaser) {
   'use strict';
@@ -170,5 +170,7 @@
   exports.default = FollowPlugin;
 
 
-  _phaser2.default.Plugins.FollowPlugin = FollowPlugin;
+  if (typeof window !== 'undefined') {
+    window.PhaserFollowPlugin = FollowPlugin;
+  }
 });
