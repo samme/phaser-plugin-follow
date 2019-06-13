@@ -1,3 +1,8 @@
+2.0.1
+-----
+
+- Updated dev dependencies.
+
 2.0.0
 -----
 
