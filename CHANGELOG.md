@@ -1,3 +1,8 @@
+2.0.2
+-----
+
+- Changed Phaser to a peer dependency.
+
 2.0.1
 -----
 

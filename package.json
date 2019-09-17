@@ -24,9 +24,11 @@
   "homepage": "https://github.com/samme/phaser-plugin-follow#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  },
-  "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "phaser": "^3.16.2"
-  }
+  },
+  "peerDependencies": {
+    "phaser": "^3.16.2"
+  },
+  "dependencies": {}
 }
