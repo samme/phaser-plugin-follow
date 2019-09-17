@@ -9,7 +9,7 @@ new Phaser.Game({
 });
 ```
 
-If you're using ES6 modules, you can use the plugin's default export in place of `PhaserFollowPlugin`.
+`PhaserFollowPlugin` is a global reference to the plugin class. The package module exports the same value.
 
 In a scene:
 
